@@ -1,0 +1,95 @@
+/*reset*/
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,fieldset,lengend,button,input,textarea,th,td {margin:0;padding:0}
+body,button,input,select,textarea{font:12px/22px "ËÎÌו"}
+h1,h2,h3,h4,h5,h6{font-size:12px; font-weight:normal}
+address,cite,dfn,em,i{font-style:normal}
+blockquote,q{quotes:none}
+ul,ol{list-style:none;}
+a{color:#666;text-decoration:none; outline:none}
+a:hover{text-decoration:underline;}
+a.u{text-decoration:underline}
+fieldset,img{border:none;}
+
+/*common*/
+.clearfix::after,
+.clearfix::before
+{
+    content: '.';
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.fl
+{
+    float: left;
+}
+.fr
+{
+    float: right;
+}
+.cl{
+    clear: both;
+    _font-size: 0;
+}
+.cl-overflow
+{
+    overflow: hidden;
+    _zoom:1;
+}
+
+.container
+{
+    width: 1201px;
+    margin: 0 auto;
+}
+
+.span15
+{
+    height: 15px;
+    /*background-color: red;*/
+}
+.pt11
+{
+    padding-top: 11px;
+}
+.pr200
+{
+    padding-right: 200px;
+}
+.w760
+{
+    width: 760px;
+}
+.w940
+{
+    width: 940px;
+}
+.w1520
+{
+    width:1520px;
+}
+
+.w182
+{
+    width: 182px;
+}
+.color-red
+{
+    background-color: red;
+}
+[class^="icon_"]
+{
+    background:url("../images/cs_topbar.png") no-repeat;
+}
+
+body
+{
+    /*height: 8888px;*/
+}
+.hide
+{
+    display: none;
+}
+

@@ -1,0 +1,1474 @@
+/*S-topbar*/
+.topbar
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #EFEFEF;
+    z-index: 1000;
+}
+.topbar .container .topbar-left
+{
+    padding-left: 55px;
+}
+
+.topbar .container .topbar-left li
+{
+    float: left;
+    height: 44px;
+    padding-left: 50px;
+
+}
+.topbar .container .topbar-left li  a
+{
+    position: relative;
+    line-height: 44px;
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+    text-decoration: none;
+
+}
+
+
+.topbar .container .topbar-left li  a .icon_1
+{
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 11px;
+    height: 18px;
+    background-position: -3px -60px;
+
+
+}
+
+.topbar .container .topbar-left li  a em
+{
+    position: absolute;
+    top: 10px;
+    right: -14px;
+    border-color: #9f9f9f transparent transparent;
+    border-style: solid dashed dashed;
+    border-width: 3px 3px 0;
+    font-size: 0;
+    height: 0;
+    width: 0;
+    line-height: 0;
+}
+
+.topbar .topbar-middle a
+{
+    float:left;
+    line-height: 44px;
+    font-family: "Microsoft Yahei";
+    text-align: center;
+
+
+}
+.topbar .topbar-middle .login-btn
+{
+    height: 44px;
+    width: 66px;
+    font-size: 16px;
+    background-color: #404040;
+    color: #FFFFFF;
+}
+.topbar .topbar-middle
+{
+    padding-left: 340px;
+}
+
+.topbar .topbar-middle .regist-btn
+{
+    height: 44px;
+    width: 83px;
+    font-size: 14px;
+    color: #333333;
+}
+.topbar .topbar-right
+{
+    padding-right: 73px;
+}
+
+.topbar .topbar-right li{
+    float: left;
+    padding-right: 17px;
+    height: 44px;
+    text-align: left;
+}
+.topbar .topbar-right li
+{
+    line-height: 44px;
+}
+.topbar .topbar-right li:last-child
+{
+    padding-right: 0;
+}
+
+/*E-topbar*/
+
+/*S-header*/
+.header
+{
+    margin-top: 44px;
+    background: url("../images/2016-07-01_1200.jpg") no-repeat scroll center top;
+}
+
+.header .container
+{
+    position: relative;
+    height: 147px;
+}
+.header .container .header-link
+{
+    position: absolute;
+    top: 7px;
+    right: 45px;
+}
+.header .container .header-link li{
+    float: left;
+}
+
+.header .container .header-link li a i
+{
+    display: block;
+    background:url("../images/pic_header.png") no-repeat;
+    width: 104px;
+    height: 29px;
+}
+.header .container .header-link li a i.link-1
+{
+    background-position: 0 -60px;
+}
+.header .container .header-link li a i.link-2
+{
+    width: 97px;
+    background-position: -104px -60px;
+}
+.header .container .header-link li a i.link-3
+{
+    background-position: -201px -60px;
+}
+.header .container .header-search
+{
+    position: absolute;
+    top: 80px;
+    right: 8px;
+}
+
+.header .container .header-search::before
+{
+    content: "";
+    display:block;
+    background: url("../images/pic_header.png") no-repeat 0 -134px;
+    width: 127px;
+    height: 18px;
+
+
+
+}
+
+
+.header .container .header-search input
+{
+    float: left;
+    width: 296px;
+    height: 28px;
+    border: 1px solid #ccc;
+    color: #cccccc;
+    font-size: 14px;
+
+}
+.header .container .header-search .a-search
+{
+    float: left;
+    background: url("../images/pic_header.png") no-repeat -250px -100px #9CD12C;
+    width: 47px;
+    height: 28px;
+    border: 1px solid #9CD12C;
+
+
+
+}
+.header .container .header-search .horn
+{
+    position: absolute;
+    top: -10px;
+    left: 110px;
+    height: 24px;
+    width: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: width 0.5s;
+}
+.header .container .header-search .horn:hover
+{
+    width: 200px;
+}
+.header .container .header-search .horn .horn-link
+{
+    position: relative;
+    top: 5px;
+    display: block;
+    background: url("../images/pic_header.png") no-repeat 0 -108px;
+    width: 18px;
+    height: 14px;
+    
+}
+.header .container .header-search .horn ul
+{
+    width: 200px;
+}
+.header .container .header-search .horn ul li
+{
+    float: left;
+}
+.header .container .header-search .horn ul li a
+{
+    display: block;
+    background: url("../images/pic_header.png") no-repeat -24px -100px;
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+
+}
+
+/*S-banner*/
+.banner
+{
+
+}
+.banner .banner-top
+{
+    background-color: #3A3A3A;
+    height: 40px;
+}
+
+.banner .banner-top .protal
+ {
+    float: left;
+    position: relative;
+    background: url("../images/bg_banner.png") no-repeat 0 0;
+    width: 150px;
+    height: 40px;
+    transition: transform 0.5s;
+
+ }
+.banner .banner-top .protal:hover em
+{
+    transform: rotate(180deg);
+}
+.banner .banner-top .protal:hover div.temp
+{
+    height: 450px;
+}
+
+
+.banner .banner-top .protal .temp
+{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 1201px;
+    height: 0px;
+    background: url(../images/bg_portal.png) no-repeat;
+    z-index: 100;
+    transition: height 0.2s;
+}
+.banner .banner-top .protal a
+{
+    display: block;
+    width: 125px;
+    height: 40px;
+    font: 16px/40px "Microsoft Yahei";
+    padding-left: 25px;
+    color: #fff;
+    text-decoration: none;
+    
+
+}
+
+.banner .banner-top .protal em
+{
+    position: absolute;
+    top: 15px;
+    left:115px;
+    background: url("../images/cs_ico.png") no-repeat 0 -100px;
+    width: 19px;
+    height: 11px;
+    transition: transform 0.2s;
+}
+.banner .banner-top .btn-protal ul li
+{
+    float: left;
+    position: relative;
+}
+.banner .banner-top .btn-protal ul li a
+{
+    display: block;
+    height: 40px;
+    padding: 0 17px;
+    font: 16px/40px "Microsoft Yahei";
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.banner .banner-top .btn-protal ul li a.current
+{
+    color: #9CD12C;
+}
+.banner .banner-top .btn-protal ul li a:hover,
+.banner .banner-top .brand a:hover
+{
+    color: #9CD12C;
+}
+.banner .banner-top .btn-protal ul li a::after
+{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 12px;
+    right: 0px;
+    height: 20px;
+    width: 1px;
+    background-color: #2E2E2E;
+}
+.banner .banner-top .brand
+{
+    background: url("../images/bg_banner.png") no-repeat 0 -40px;
+    width: 145px;
+    height: 40px;
+    text-align: center;
+    
+}
+.banner .banner-top .brand a
+{
+    height: 40px;
+    font: 16px/40px "Microsoft Yahei";
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.banner .banner-bottom
+{
+    background:url("../images/bg_banner.png") repeat-x 0 -111px;
+    height: 31px;
+    padding-left: 11px;
+}
+.banner .banner-bottom .fl
+{
+    background: url("../images/bg_banner.png") no-repeat -110px -80px;
+    height: 31px;
+    width:40px ;
+
+}
+.banner .banner-bottom .b-mid
+{
+    float: left;
+    padding-left: 14px;
+}
+.banner .banner-bottom .b-mid li
+{
+    float: left;
+}
+.banner .banner-bottom .b-mid li a
+{
+    display: block;
+    height: 31px;
+    font: 16px/31px "Microsoft Yahei";
+    color: #FFFFFF;
+    text-align: center;
+}
+.banner .banner-bottom .b-mid li:nth-child(2n)
+{
+    padding: 12px 9px;
+    color: #6F9918;
+    line-height: 5px;
+    height: 5px;
+}
+.banner .banner-bottom .b-mid li:nth-child(2)
+{
+    color: #FFFFFF;
+}
+.banner .banner-bottom .fr
+{
+    background: url("../images/main_pic.png") no-repeat -83px -298px;
+    width: 91px;
+    height: 22px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/*E-banner*/
+
+/*S-main*/
+.main
+{
+    float: left;
+    width: 960px;
+    /*height: 1000px;*/
+
+
+}
+
+.main .recommed
+{
+    position: relative;
+    width: 958px;
+    height: 407px;
+    border: 1px solid #ccc;
+}
+.main .recommed .box
+{
+    float: left;
+    overflow: hidden;
+    border: 3px solid #FFFFFF;
+    position: relative;
+}
+.main .recommed .box p
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    font:18px/20px "Microsoft Yahei";
+    padding: 6px 20px;
+}
+.main .recommed .ab1
+{
+    width: 400px;
+    height: 198px;
+}
+.main .recommed .ab2
+{
+    width: 246px;
+    height: 198px;
+}
+.main .recommed .ab3
+{
+    width: 197px;
+    height: 162px;
+}
+.main .recommed .ab4
+{
+    width: 197px;
+    height: 162px;
+}
+.main .recommed .ab5
+{
+    width: 246px;
+    height: 164px;
+}
+.main .recommed .ab6
+{
+    float: right;
+    width: 288px;
+    height: 368px;
+}
+
+.main .recommed .recommed-link
+{
+    background: url("../images/bg_auto_tab.png") repeat-x;
+    float: left;
+    width: 948px;
+    height: 23px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.main .recommed .recommed-link a
+{
+
+    float: left;
+
+}
+.main .recommed .recommed-link a i
+{
+    display: inline-block;
+    background: url("../images/cs_ico1.png") no-repeat 0 0;
+    width: 13px;
+    height: 13px;
+}
+.main .recommed .recommed-link span
+{
+    float: left;
+    padding: 0 16px;
+}
+.main .scroll .title
+{
+    background: url("../images/main_tit.png") no-repeat;
+    width: 787px;
+    height: 58px;
+    padding-left: 173px;
+
+}
+.main .scroll .s-tag
+{
+    background-position:0 0;
+}
+.main .scroll .s-tag span a.current
+{
+    color: #FFBB1A;
+}
+.main .scroll .s-tag span a:hover
+{
+    color: #FFBB1A;
+}
+.main .scroll .a-tag
+{
+    background-position: 0 -60px;
+}
+
+.main .scroll .a-tag span a.current
+{
+    color: #B5CD22;
+}
+.main .scroll .a-tag span a:hover
+{
+    color: #B5CD22;
+}
+.main .scroll .dy-tag
+{
+    background-position: 0 -470px;
+}
+
+.main .scroll .dy-tag span a.current
+{
+    color: #C46FE0;
+}
+.main .scroll .dy-tag span a:hover
+{
+    color: #C46FE0;
+}
+
+.main .scroll .sn-tag
+{
+    background-position: 0 -118px;
+    /*width: 960px;*/
+    height: 48px;
+}
+.main .scroll .sv-tag
+{
+    background-position: 0 -168px;
+    height: 49px;
+}
+.main .scroll .title span a
+{
+    float: left;
+    font-size: 14px;
+    color: #B3CCCC;
+    height: 58px;
+    line-height: 58px;
+    font-family: "Microsoft Yahei";
+    text-decoration: none;
+    padding-right: 23px;
+}
+.main .scroll .title a.more
+{
+    float: right;
+}
+.main .scroll .scroll-content
+{
+    position: relative;
+    padding: 15px 0 15px 18px;
+    width: 945px;
+    /*height: 190px;*/
+    overflow: hidden;
+}
+.main .scroll .scroll-content span.prev,
+.main .scroll .scroll-content span.next
+{
+
+    position: absolute;
+    top: 60px;
+    width: 40px;
+    height: 40px;
+    background: #333333;
+    filter:alpha(opacity=50);
+    opacity:0.5;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+
+}
+.main .scroll .scroll-content span.prev
+{
+    left: 0;
+    padding-left: 10px;
+
+}
+.main .scroll .scroll-content span.prev i
+{
+    float: left;
+    background: url(../images/cs_ico1.png) no-repeat 0 -205px;
+    width: 17px;
+    height: 25px;
+
+}
+.main .scroll .scroll-content span.next
+{
+    right: 0;
+    padding-right: 10px;
+}
+.main .scroll .scroll-content span.next i
+{
+    float: right;
+    background: url(../images/cs_ico1.png) no-repeat 0 -179px;
+    width: 17px;
+    height: 25px;
+
+}
+.main .scroll .scroll-content ul
+{
+    position: relative;
+    transition: left 0.5s;
+}
+.main .scroll .scroll-content ul li
+{
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 10px;
+
+}
+.main .scroll .scroll-content ul li a.scroll-bg
+{
+    display: block;
+    background: url("../images/bg_cover.png") no-repeat 0 0;
+    width: 104px;
+    height: 137px;
+    padding: 5px 5px 1px 1px;
+
+}
+.main .scroll .scroll-content ul li a.sc-title
+{
+    width: 115px;
+    height: 22px;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+}
+.main .scroll .scroll-content ul li .rec-ico
+{
+    position: relative;
+    top: 1px;
+    left: 3px;
+    display: inline-block;
+    background: url("../images/cs_ico1.png") no-repeat 0 -465px;
+    width: 14px;
+    height: 14px;
+
+}
+.main .scroll .scroll-content ul li p
+{
+    text-align: center;
+    color: #999999;
+}
+
+.zt
+{
+    position: relative;
+    background: url("../images/bg_zt.png");
+    height: 92px;
+    width: 940px;
+    padding: 30px 15px 10px 15px;
+}
+.zt ul
+{
+    padding-left: 20px;
+}
+.zt ul li
+{
+    position: relative;
+    float: left;
+    padding-right: 15px;
+}
+.zt ul li::after
+{
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    content: "";
+    background: url("../images/cs_ico1.png") no-repeat 0px -230px;
+    width: 14px;
+    height: 14px;
+
+
+}
+.zt .zt-more
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 2;
+}
+.zt .zt-more img
+{
+    position: absolute;
+    top: 0;
+    right:0;
+
+}
+.zt .zt-more img.zt-bg
+{
+    width: 57px;
+    height: 57px;
+}
+.zt .zt-wrapper,
+.zt .zt-more
+{
+    width: 17px;
+    height: 17px;
+    transition: width 0.2s,height 0.2s;
+}
+.zt .zt-more:hover,.zt-wrapper:hover
+{
+    width: 57px;
+    height: 57px;
+}
+.main .scroll .title ul
+{
+    height: 30px;
+    padding-top: 28px;
+}
+.main .scroll .title ul li
+{
+    float: left;
+    background: url("../images/cs_ico1.png") no-repeat right -245px;
+    width: 102px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    margin-left: -17px;
+
+}
+.main .scroll .title ul li a
+{
+    display: block;
+    background: url("../images/main_pic.png") no-repeat -139px -400px;
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+    color: #333333;
+    text-decoration: none;
+
+}
+.main .scroll .title ul li a:hover
+{
+    background-position: -75px 0;
+}
+
+.main .scroll .scroll-content .w760 li
+{
+    padding-right:18px;
+}
+.main .scroll .scroll-content .w760 li:nth-child(6n)
+{
+    padding-right:0;
+}
+.main .scroll .xz-bang
+{
+    float: right;
+    height: 25px;
+    line-height: 25px;
+    /*text-align: inherit;*/
+    padding-top: 17px;
+    padding-right: 70px;
+    font-size: 16px;
+    font-family: "Microsoft Yahei";
+}
+
+.main .scroll .scroll-content .w182 ul li
+{
+    width: 182px;
+    padding: 0;
+
+}
+.main .scroll .scroll-content .w182 ul li .z-line
+{
+    height: 27px;
+    border-bottom: 1px dashed #cccccc;
+    line-height: 27px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.main .scroll .scroll-content .w182 ul li .z-line i
+{
+    position: relative;
+    display: inline-block;
+    background: url(../images/cs_ico1.png) no-repeat 0 -290px;
+    width: 3px;
+    height: 3px;
+    top: -3px;
+    left: -3px;
+}
+.main .scroll .scroll-content .w182 ul li .z-line em
+{
+    float: right;
+    color: #cccccc;
+}
+
+.main .scroll .scroll-content .w182 ul li .z-box
+{
+    background: url(../images/bg_channel_rt.png);
+    height: 113px;
+
+    padding-top: 6px;
+    padding-left: 4px;
+}
+.main .scroll .scroll-content .w182 ul li .z-box img
+{
+    height: 105px;
+    width: 81px;
+}
+.main .scroll .scroll-content .w182 ul li .z-box em
+{
+    padding-left: 20px;
+}
+.main .scroll .scroll-content .w182 ul li .z-box span
+{
+    margin-left: 20px;
+    background-color: #F1668B;
+    color: #FFFFFF;
+    height: 14px;
+    line-height: 14px;
+    font-family: "Microsoft Yahei";
+    padding: 0 2px;
+    
+}
+.main .scroll .scroll-content .w182 ul li .z-box span i{
+    display: inline-block;
+    background: url(../images/cs_ico1.png) no-repeat -13px -269px;
+    width: 9px;
+    height: 9px;
+}
+
+
+
+/*E-main*/
+
+
+/*S-slid*/
+.slid
+{
+    float: right;
+    width: 220px;
+    padding-bottom: 10px;
+}
+
+.slid .slid-con1
+{
+    background: url(../images/bg_side.png) no-repeat 0 -531px;
+    width: 220px;
+    height: 125px;
+
+}
+.slid .slid-con1 a
+{
+    float: left;
+    margin-top: 55px;
+    padding-top: 50px;
+
+    height: 24px;
+    width: 73px;
+    font-size: 12px;
+    text-align: center;
+}
+.slid .slid-con2
+{
+    border: 1px solid #ccc;
+    background-color: #FFFFF5;
+    padding-top: 18px;
+    padding-left: 5px;
+}
+
+.slid .slid-con2 .con2-top
+{
+    font-size: 19px;
+    text-align: center;
+    color: #F23939;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #ccc;
+}
+.slid .slid-con2 .con2-conter
+{
+    padding: 8px 0;
+    border-bottom: 1px dashed #cccccc;
+   
+}
+
+.slid .slid-con2 .con2-conter a
+{
+    float: right;
+    width: 92px;
+    padding-left: 8px;
+    text-align:left;
+}
+.slid .slid-con2 .con2-lis li
+{
+    position: relative;
+    width: 200px;
+    height: 27px;
+    border-bottom: 1px dashed #cccccc;
+    padding-left: 10px;
+}
+.slid .slid-con2 .con2-lis li:after
+{
+    position: absolute;
+    top: 13px;
+    left: 0;
+    content: "";
+    width: 3px;
+    height: 3px;
+    background-color: red;
+
+}
+.slid .slid-con2 .con2-lis li a
+{
+    display: block;
+    line-height: 27px;
+
+}
+.slid .slid-ad
+{
+    padding-top: 16px;
+
+}
+
+.slid .slid-con3 h3
+{
+    background: url(../images/bg_side.png) no-repeat 0 -674px;
+    width: 219px;
+    height: 77px;
+}
+.slid .slid-con3 ul
+{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding-left: 10px;
+}
+.slid .slid-con3 ul li
+{
+    padding:10px 0;
+    border-bottom: 1px dashed #ccc;
+}
+.slid .slid-con3 .t1
+{
+    font-size: 15px;
+    /*font-family: "Microsoft Yahei";*/
+    color: #333;
+    font-weight: bold;
+    width: 148px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+}
+.slid .slid-con3 p
+{
+    margin-left: 10px;
+}
+
+.slid .slid-con3 .con3-last{
+    padding:10px 0 10px 10px;
+    border-right: 1px solid #ccc;
+    border-left:1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.slid .slid-con3 .con3-last span
+{
+    padding-right: 10px;
+}
+.slid .slid-con3 .con3-last span i{
+    color: red;
+}
+
+.slid .slid-con4 .con4-title
+{
+    position: relative;
+    background: url(../images/bg_side.png) no-repeat 0 -360px;
+    width: 217px;
+    height: 43px;
+    font: 18px/43px "Microsoft Yahei";
+    color:#FFFFFF;
+    text-align: center;
+}
+.slid .slid-con4 .con4-title .con4-con
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 18px;
+    width: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    transition: height 0.2s;
+}
+.slid .slid-con4 .con4-title .con4-con:hover
+{
+    height: 54px;
+}
+
+.slid .slid-con4 .con4-title .con4-con a
+{
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #40B3E6;
+    background-color: #FFFFFF;
+    text-decoration: none;
+}
+.slid .slid-con4 .con4-title .con4-con a.con4-link:hover
+{
+    background-color: #40B3E6;
+    color: #FFFFFF;
+}
+.slid  .con4-content{
+    border: 1px solid #cccccc;
+}
+.slid .con4-content .c4con-title a
+{
+
+    width: 105px;
+    background-color: #BEBEBE;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+.slid .con4-content ul li
+{
+    position: relative;
+    padding:10px 0 5px 0;
+    border-bottom: 1px dashed #cccccc;
+
+}
+.slid .con4-content ul li span
+{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.slid .con4-content ul li span p
+{
+    color: #cccccc;
+}
+.slid .con4-content ul li em
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 24px;
+    color: #666666;
+    font-family: "Microsoft Yahei";
+
+}
+
+.slid .slid-con4 .con4-last
+{
+    color: #cccccc;
+    padding: 10px 5px;
+}
+
+.slid .slid-con5 .con5-title
+{
+    background: url(../images/bg_side.png) no-repeat 0 -225px;
+    width: 218px;
+    height: 42px;
+    font: 20px/42px "Microsoft Yahei";
+    color: #FFFFFF;
+    text-align: center;
+}
+.slid .slid-con5
+{
+    border: 1px solid #cccccc;
+}
+.slid .slid-con5 .con5-content
+{
+
+}
+.slid .slid-con5 .con5-content li
+{
+    width: 98px;
+    height: 28px;
+    padding-left: 10px;
+    border-bottom: 1px dashed #cccccc;
+
+
+
+    float: left;
+
+}
+
+.slid .slid-con5 .con5-content li i.icon-n
+{
+    position: relative;
+    top: 4px;
+    left: -4px;
+    display: inline-block;
+    background: url(../images/cs_ico.png) no-repeat -14px -520px;
+    height: 13px;
+    width: 10px;
+
+}
+.slid .slid-con5 .con5-content li i.icon-m
+{
+    position: relative;
+    top: 4px;
+    left: -4px;
+    display: inline-block;
+    background: url(../images/cs_ico.png) no-repeat -19px -270px;
+    height: 11px;
+    width: 12px;
+}
+.slid .slid-con5 .con5-content li i.icon-w
+{
+    position: relative;
+    top: 4px;
+    left: -4px;
+    display: inline-block;
+    background: url(../images/cs_ico.png) no-repeat -21px -290px;
+    height: 13px;
+    width: 8px;
+}
+.slid .slid-con5 .con5-last a
+{
+    padding: 10px 5px;
+    text-decoration: none;
+}
+.slid .slid-con6 .con6-title
+{
+    position: relative;
+}
+.slid .slid-con6 .con6-title a,span.con6-btn
+{
+    float: left;
+    background: url(../images/bg_side.png) no-repeat 0 0;
+    width: 110px;
+    height: 42px;
+    font: 20px/42px "Microsoft Yahei";
+    color: #2E2E2E;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.slid .slid-con6 .con6-title span.con6-btn
+{
+    position: absolute;
+    background: url(../images/bg_side.png) no-repeat 0 -812px;
+    top: 0;
+    left:0;
+    color: #FFFFFF;
+    transition: left 0.5s;
+
+}
+.slid .slid-con6 .con6-content
+{
+    border: 1px solid #cccccc;
+    padding-bottom: 10px;
+}
+.slid .slid-con6 .con6-content ul li
+{
+    position: relative;
+    border-bottom: 1px dashed #cccccc;
+
+}
+.slid .slid-con6 .con6-content ul li.first
+{
+    padding: 10px;
+}
+.slid .slid-con6 .con6-content ul li.first a{
+    padding: 2px 2px;
+    height: 105px;
+    border: 1px solid #cccccc;
+    margin-right: 5px;
+}
+.slid .slid-con6 .con6-content ul li.first img
+{
+    width: 79px;
+    height: 105px;
+}
+.slid .slid-con6 .con6-content ul li.first i
+{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background: url(../images/main_pic.png) no-repeat 0 -294px;
+    width: 45px;
+    height: 27px;
+}
+.slid .slid-con6 .con6-content ul li.other
+{
+    position: relative;
+    padding: 2px 0;
+}
+.slid .slid-con6 .con6-content ul li.other a
+{
+    padding-left: 25px;
+}
+.slid .slid-con6 .con6-content ul li.other i
+{
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    background-color: orange;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+.slid .slid-con6 .con6-content ul li.other em
+{
+    color: #cccccc;
+}
+.slid .slid-con7
+{
+    border: 1px solid #cccccc;
+    border-bottom: none;
+}
+
+.slid .slid-con7 .con7-title
+{
+    background: url(../images/bg_side.png) no-repeat 0 -270px;
+    width: 218px;
+    height: 42px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 42px;
+    font-size: 20px;
+}
+.slid .slid-con7 .con7-context li
+{
+    height: 97px;
+    border-bottom: 1px dashed #cccccc;
+}
+.slid .slid-con7 .con7-context li a.fl
+{
+    padding: 10px 10px 5px;
+}
+
+.slid .slid-con7 .con7-context li div.fl
+{
+    padding-top: 10px;
+}
+.slid .slid-con7 .con7-context li div a.btn
+{
+    background-color: #DCA336;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 3px;
+
+}
+.slid .slid-con8
+{
+    border: 1px solid #cccccc;
+    border-top: none;
+    border-bottom:none;
+}
+.slid .slid-con8 dl,
+.slid .slid-con8 dl dt
+{
+    border-bottom: 1px solid #cccccc;
+}
+.slid .slid-con8 dl dt em
+{
+    background-color: #EA5A5A;
+    font-size: 14px;
+    padding: 2px 4px;
+    color: #FFFFFF;
+    box-shadow: 3px 3px 2px #888888;
+}
+.slid .slid-con8 dl dd a,
+.slid .slid-con8 dl dd em
+{
+    padding:0 15px 0 5px;
+}
+.slid .slid-con8 dl dd em.t
+{
+    color: #9EB753;
+}
+
+.slid .slid-con8 .con8-last
+{
+    display: block;
+    background:url(../images/bg_side.png) no-repeat 0 -408px;
+    width: 205px;
+    height: 51px;
+}
+
+
+
+
+
+
+/*E-sild*/
+
+/*S-week-rand*/
+.week-rand
+{
+    background: url(../images/bg_rank.png) no-repeat 0 0;
+    width: 1200px;
+    padding: 48px 0px;
+
+}
+
+.week-rand ul
+{
+    float: left;
+    width: 231px;
+    border: 1px solid #cccccc;
+    margin-right: 8px;
+}
+.week-rand ul:last-child
+{
+    margin-right: 0;
+}
+.week-rand ul li
+{
+    overflow: hidden;
+    border-bottom: 1px dashed #cccccc;
+    padding: 5px 0;
+}
+.week-rand ul li i
+{
+    float: left;
+    background: url(../images/main_pic.png) no-repeat;
+    width: 41px;
+
+}
+.week-rand ul li.t1 i
+{
+    background-position: 0 -144px;
+    height: 36px;
+    margin-top: 5px;
+}
+.week-rand ul li.t2 i
+{
+    background-position: -40px -145px;
+    height: 31px;
+    margin-top: 5px;
+}
+.week-rand ul li.t3 i
+{
+    background-position: -82px -145px;
+    height: 32px;
+    width: 39px;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+.week-rand ul li.other i
+{
+    background: url(../images/cs_ico.png) no-repeat 0 -225px;
+    width: 20px;
+    height: 17px;
+    margin:3px 10px 0;
+    color: #8EA93C;
+    line-height: 17px;
+    text-align: center;
+
+}
+.week-rand ul li img
+{
+    width: 41px;
+    line-height: 41px;
+    border: 1px solid #cccccc;
+}
+.week-rand ul li.other img
+{
+    width: 26px;
+    height: 21px;
+}
+.week-rand ul li a{
+    line-height: 41px;
+    color: #8EA93C;
+    font-size: 18px;
+    padding-left: 2px;
+}
+.week-rand ul li.other a
+{
+    line-height: 21px;
+    font-size: 12px;
+    color: #2E2E2E;
+}
+.week-rand ul li em
+{
+    line-height: 41px;
+    padding-right: 2px;
+}
+.week-rand ul li.other em
+{
+    line-height: 21px;
+}
+/*E-week-rand*/
+
+
+/*S-footer*/
+.footer
+{
+    position: relative;
+    height: 170px;
+    border-top:3px solid #8EA93C;
+    background: url(../images/bg_footer.png);
+    padding: 30px 0 0 30px;
+
+
+}
+.footer .fl
+{
+    border-right: 1px solid #cccccc;
+}
+.footer dl
+{
+    float: left;
+    margin-right: 24px;
+
+}
+.footer dl dt
+{
+    background: url(../images/pic_foot.png) no-repeat;
+    width: 120px;
+    height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.footer dl dt.d1
+{
+    background-position: 0 0;
+}
+.footer dl dt.d2
+{
+    background-position: 0 -25px;
+}
+.footer dl dt.d3
+{
+    background-position: 0 -50px;
+}
+.footer dl dt.d4
+{
+    background-position: 0 -75px;
+}
+.footer dl dd
+{
+    color: #666666;
+    padding-top: 7px;
+}
+.footer p
+{
+    padding-right: 150px;
+    line-height: 30px;
+}
+
+.footer .fot-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: url(../images/img_foot.gif) no-repeat;
+    width: 163px;
+    height: 74px;
+}
+/*E-footer*/
+
